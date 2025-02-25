@@ -1,3 +1,6 @@
 .DS_Store
 *.db
 *.db-journal
+*.csv
+__pycache__
+*.dylib

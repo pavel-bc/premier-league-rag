@@ -1,26 +1,39 @@
-# ollama-sqlite-rag
+# premier-league-rag
 
 ```
-⚠️ Warning: Most of the code in this repository is generated using Claude 3.7 Sonnet
+⚠️ WARNING: Most of the code in this repository is generated using Claude 3.7 Sonnet
 ```
 
-SQLite-based Premier League simulator using [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) based local [Ollama](https://ollama.com) & [Streamlit](https://streamlit.io) setup.
+Premier League season simulator using:
+
+- SQLite-based [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+- Local [Ollama](https://ollama.com) setup
+- [Streamlit](https://streamlit.io) for UI
+
+https://github.com/user-attachments/assets/75472885-3ee1-42f6-a334-821302dde552
 
 ## Pre-requisites
 
 ```shell
-$ brew install ollama sqlite sqlite-utils streamlit
+$ brew install curl ollama streamlit
 $ ollama pull mxbai-embed-large
-$ sqlite-utils install sqlite-utils-sqlite-vec
 $ pip install -r requirements.txt
 ```
 
 ## Running
 
+Download & import historical data (takes ~10m):
+
 ```shell
-$ streamlit run streamlit_app.py
+$ make clean download import
+```
+
+Run simulator:
+
+```shell
+$ make run
 ```
 
 ## Links
 
-- https://github.com/inferablehq/sqlite-ollama-rag
+- [inferablehq/sqlite-ollama-rag](https://github.com/inferablehq/sqlite-ollama-rag) - shell version for matching movies
