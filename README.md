@@ -6,7 +6,7 @@
 
 Premier League season simulator using:
 
-- SQLite-based [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
+- SQLite-based [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) (using [sqlite-vec](https://alexgarcia.xyz/blog/2024/sqlite-vec-stable-release/index.html))
 - Local [Ollama](https://ollama.com) setup
 - [Streamlit](https://streamlit.io) for UI
 
