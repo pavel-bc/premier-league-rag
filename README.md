@@ -1,10 +1,9 @@
 # premier-league-rag
 
-```
-⚠️ WARNING: Most of the code in this repository is generated using Claude 3.7 Sonnet
-```
+> [!WARNING]
+> Majority of the code in this repository was generated using [Claude 3.7 Sonnet](https://claude.ai)
 
-Premier League season simulator using:
+English Premier League season simulator using:
 
 - SQLite-based [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) (using [sqlite-vec](https://alexgarcia.xyz/blog/2024/sqlite-vec-stable-release/index.html))
 - Local [Ollama](https://ollama.com) setup
