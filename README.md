@@ -1,5 +1,7 @@
 # premier-league-rag
 
+![Logo](assets/premier-league-rag.jpg)
+
 > [!WARNING]
 > Majority of the code in this repository was generated using [Claude 3.7 Sonnet](https://claude.ai)
 
