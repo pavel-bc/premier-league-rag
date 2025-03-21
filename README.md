@@ -11,6 +11,8 @@ English Premier League season simulator using:
 - Local [Ollama](https://ollama.com) setup
 - [Streamlit](https://streamlit.io) for UI
 
+## Demo
+
 https://github.com/user-attachments/assets/75472885-3ee1-42f6-a334-821302dde552
 
 ## Pre-requisites
